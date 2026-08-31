@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electro-Pneumatic Pipe Organ — Charlie Rahdon</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="../index.html">crahdon<span class="dot">.</span>eng</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="project-hero wrap">
+    <a class="back-link" href="../index.html">&larr; back to projects</a>
+    <div class="eyebrow">Coursework Project</div>
+    <h1>Electro-Pneumatic Pipe Organ</h1>
+    <div class="meta">GENED 1080: How Technology Works &mdash; Harvard University &nbsp;|&nbsp; Prof. Robert Wood</div>
+  </section>
+
+  <section class="wrap">
+    <div class="gallery">
+      <figure>
+        <img src="../images/pipe-organ/web/03-finished-organ.jpg" alt="Completed 10-pipe electro-pneumatic organ with wooden frame and 3D-printed pipes">
+      </figure>
+      <figure>
+        <img src="../images/pipe-organ/web/01-solenoid-manifold.jpg" alt="Solenoid valve manifold distributing air to the organ pipes">
+      </figure>
+      <figure>
+        <img src="../images/pipe-organ/web/02-breadboard-circuit.jpg" alt="Breadboard circuit with Arduino controlling ten push-button inputs">
+      </figure>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>Overview</h2>
+    <div class="prose">
+      <p>This project involved designing and building a functional 10-pipe electro-pneumatic organ from scratch, integrating acoustic physics, pneumatic systems, and embedded electronics into a single working instrument.</p>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>My Contributions</h2>
+    <ul class="checklist">
+      <li>Designed and built the solenoid control circuits, pivoting from breadboard to a fully soldered solution after identifying connection instability under load</li>
+      <li>Diagnosed and resolved a power limitation where a 9V battery could only actuate 1&ndash;2 valves simultaneously under pressure by switching to a 6V regulated supply capable of firing all 10 at once</li>
+      <li>Built the pneumatic distribution system connecting the wall compressor to the manifold and pipes</li>
+      <li>Constructed the wooden mounting frame for the pipe assembly</li>
+    </ul>
+  </section>
+
+  <section class="section wrap">
+    <h2>How It Works</h2>
+    <div class="prose">
+      <p>The 10 pipes were modelled in SolidWorks and 3D-printed in PLA, with dimensions calculated from first principles using f = v/2L. Tuning caps were added to drop each pipe's pitch by an octave, improving tonal clarity and reducing the required air pressure. Compressed air is distributed via a PVC manifold and controlled by 10 solenoid valves, each triggered independently by an Arduino microcontroller.</p>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>Skills Applied</h2>
+    <div class="tag-list">
+      <span class="tag-pill">Arduino Programming</span>
+      <span class="tag-pill">Circuit Design &amp; Soldering</span>
+      <span class="tag-pill">Pneumatic Systems</span>
+      <span class="tag-pill">SolidWorks</span>
+      <span class="tag-pill">Acoustic Engineering</span>
+      <span class="tag-pill">3D Printing</span>
+      <span class="tag-pill">Systems Integration</span>
+      <span class="tag-pill">Embedded Control</span>
+      <span class="tag-pill">Troubleshooting &amp; Debugging</span>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  &copy; 2026 Charlie Rahdon &middot; <a href="mailto:crahdon@college.harvard.edu">crahdon@college.harvard.edu</a>
+</footer>
+
+</body>
+</html>
