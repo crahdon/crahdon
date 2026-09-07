@@ -316,6 +316,48 @@ header.site-header {
   }
 }
 
+/* ---------- Contact ---------- */
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.contact-list .label {
+  font-family: var(--mono);
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 140px;
+}
+
+.contact-list a {
+  font-family: var(--mono);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.contact-list a:hover { color: var(--accent); }
+
 /* ---------- Footer ---------- */
 footer {
   padding: 40px 0 60px;
