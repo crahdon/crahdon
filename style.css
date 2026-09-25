@@ -312,9 +312,14 @@ header.site-header {
   width: 100%;
   height: auto;
   object-fit: cover;
+  object-position: center;
   aspect-ratio: 3 / 4;
   border-radius: 8px;
   border: 1px solid var(--border);
+}
+
+.about-grid .portrait img.pos-left {
+  object-position: left center;
 }
 
 @media (max-width: 700px) {
