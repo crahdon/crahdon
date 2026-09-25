@@ -319,7 +319,7 @@ header.site-header {
 }
 
 .about-grid .portrait img.pos-left {
-  object-position: right center;
+  object-position: 75% center;
 }
 
 @media (max-width: 700px) {
