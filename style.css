@@ -227,10 +227,14 @@ header.site-header {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 12px;
+  columns: 2 300px;
+  column-gap: 12px;
   margin: 40px 0;
+}
+
+.gallery figure {
+  margin: 0 0 12px;
+  break-inside: avoid;
 }
 
 .gallery img {
@@ -242,7 +246,11 @@ header.site-header {
   background: var(--bg-elevated);
 }
 
-.gallery figure { margin: 0; }
+@media (max-width: 640px) {
+  .gallery {
+    columns: 1;
+  }
+}
 
 .prose p { margin: 0 0 18px; color: var(--text); }
 .prose p.dim { color: var(--text-dim); }
